@@ -62,3 +62,16 @@ body {
     margin-bottom: 20px;
     margin-left: 20px;
 }
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-family: Big Shoulders Display, sans-serif;
+    font-weight: 700;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: Lexend Deca, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
