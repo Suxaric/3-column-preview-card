@@ -15,7 +15,6 @@ body {
 
 .container-main {
     max-width: 960px;
-    display: grid;
     margin-top: 0;
     margin-right: auto;
     margin-bottom: 0;
@@ -132,4 +131,14 @@ p {
     padding-left: 20px;
     border-radius: 20px;
     border: 2px solid hsl(0, 0%, 95%);
+}
+
+@media only screen and (max-width: 768px) {
+    .container-wrapper {
+        grid-template-columns: 1fr;
+        margin-top: 1.5rem;
+        margin-right: 1rem;
+        margin-bottom: 1.5rem;
+        margin-left: 1rem;
+    }
 }
